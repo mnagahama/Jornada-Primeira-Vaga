@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  padding-top: 200px;
+  background-image: url("/img/background-image-desafio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Cinzel", serif;
+
+  height: 100vh;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 86px;
+}
+
+h1 span {
+  color: #db2777;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 72px;
+  color: black;
+  opacity: 0.7;
+}
+
+a {
+  padding: 12px 32px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: black;
+  opacity: 0.6;
+}
+
+a:hover,
+.btn-primary {
+  text-decoration: none;
+  color: white;
+  background-color: #db2777;
+  opacity: 1;
+}
